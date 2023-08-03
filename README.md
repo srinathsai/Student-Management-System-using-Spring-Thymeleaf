@@ -12,4 +12,14 @@ Thymeleaf is a Java template engine on the client side for processing and creati
   - Therefore, Spring copies the model data into request attributes that the Thymeleaf template can work with. <br />
 
 ## Architecture:-
-  ![this is an image](https://cdn.mindmajix.com/blog/images/thymeleaf-vs-jsp-1-1722023.png)
+  ![this is an image](https://github.com/srinathsai/Student-Management-System-using-Spring-Thymeleaf/blob/main/2.jpg)
+
+  ## Steps of Execution:-
+  - First, download the code and open it in IntelliJIdea or any Java IDE.(Note you no need to add any configurations for Spring or you no need to adjust any dependency version because here by using Spring initializer 
+      necessary dependencies with recent versions have been added and it is reflected in Pom.xml file.)< br />
+  - In application.properties file change Spring.datasource url to your MySQL url which at the time of installing MySQL you would get this url. <br />
+  - Change username and password in application.properties file of yours that you have set while installing MySQL .<br />
+  - Change hibernate dialect to MySQL dialect.<br />
+  (Note just change urls that are present on right hand side of equal to sign in Applications.properties file).<br />
+  - Now for playing with this system you need to type url localhost:8080/students in web browser . Then you will be first seen with a form of list of students already in databse if not you can create a new one by clicking new student in navigation bar. Each and every detail of student is validated with Spring validation annotations and dependency. If there are students in your db then you will have 3 options beside him in 3 buttons which are delete, edit, view and by pressing them they will work accordingly.<br />
+  
