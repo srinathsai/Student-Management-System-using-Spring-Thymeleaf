@@ -10,3 +10,6 @@ Thymeleaf is a Java template engine on the client side for processing and creati
   - When Spring-Boot’s autoconfiguration detects Thymeleaf in the classpath, it creates beans supporting Thymeleaf view for Spring MVC.<br />
   - It can work with request attributes of Servlet.<br />
   - Therefore, Spring copies the model data into request attributes that the Thymeleaf template can work with. <br />
+
+## Architecture:-
+  ![this is an image](https://cdn.mindmajix.com/blog/images/thymeleaf-vs-jsp-1-1722023.png)
